@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+ <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="cadastro.css" />
+  <title>Safebet - cadastro</title>
+ </head>
+ <body>
+  <div class="page-container d-flex flex-center-xy">
+   <div id="cadastro-form-container">
+    <h1 class="form">Crie sua conta e comece a se divertir!</h1>
+    <form
+     class="d-flex-column flex-align-center"
+     action="/seu-endereco-de-cadastro"
+     method="POST"
+    >
+     <label for="nome">Nome:</label>
+     <input
+      type="text"
+      id="cadastro-nome"
+      name="nome"
+      placeholder="Digite seu nome completo"
+      required
+     />
+
+     <label for="email">E-mail:</label>
+     <input
+      type="email"
+      id="cadastro-email"
+      name="email"
+      placeholder="Digite seu melhor e-mail"
+      required
+     />
+
+     <label for="senha">Senha:</label>
+     <input
+      type="password"
+      id="cadastro-senha"
+      name="senha"
+      placeholder="Digite sua senha"
+      required
+     />
+
+     <label for="confirmar-senha">Confirmar senha:</label>
+     <input
+      type="password"
+      id="cadastro-confirmar-senha"
+      name="confirmar-senha"
+      placeholder="Confirme sua senha"
+      required
+     />
+
+     <button type="submit">Cadastrar</button>
+     <p>
+      Já possui uma conta?
+      <a href="/login/index.html">Faça login aqui</a>
+     </p>
+    </form>
+   </div>
+  </div>
+ </body>
+</html>

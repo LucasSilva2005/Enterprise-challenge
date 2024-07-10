@@ -1,0 +1,78 @@
+body {
+ background-color: cornflowerblue;
+ font-family: Arial, sans-serif;
+}
+
+.sidebar {
+ height: 100%;
+ width: 0;
+ position: fixed;
+ top: 0;
+ left: 0;
+ background-color: #111;
+ overflow-x: hidden;
+ transition: 0.3s;
+ padding-top: 60px;
+}
+
+.sidebar a {
+ padding: 10px 15px;
+ text-decoration: none;
+ font-size: 25px;
+ color: white;
+ display: block;
+}
+
+.openbtn {
+ font-size: 20px;
+ cursor: pointer;
+ background-color: #111;
+ color: white;
+ border: none;
+ padding: 10px 15px;
+ position: fixed;
+ top: 10px;
+ left: 10px;
+}
+
+.imagem__logo {
+ width: 90px;
+ display: flex;
+ padding: 0% 2% 4% 5%;
+}
+
+.conteudo {
+ display: flex;
+ margin: 4% 4% 4% 4%;
+ color: #111;
+}
+
+.conteudo__principal {
+ flex-direction: column;
+ gap: 20px;
+ position: relative;
+ display: flex;
+ width: 100%;
+ height: 500px;
+ background-color: #111;
+ margin: -6% 2% 2% 2%;
+}
+
+.conteudo__principal__apostas {
+ width: 95%;
+ height: 200px;
+ justify-content: center;
+ background-color: #ffffff;
+ align-items: center;
+ margin: 2% 2% 2% 2%;
+}
+
+.imagem__conteudo__principal__apostas{
+ width: 100%;
+ height: 200px;
+}
+
+.conteudo__principal__esporte{
+ width: 95%;
+ background-color: #ffffff;
+}
